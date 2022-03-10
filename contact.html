@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>About Us</title>
+</head>
+<body>
+    <a name="top">
+        <section class="header">
+            <nav>
+                <a href="main.html"><img src="images/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fas fa-times" onclick="hidemenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="products.html">PRODUCTS</a></li>
+                        <li><a href="pricing.html">PRICING</a></li>
+                        <!-- <li><a href="#about">ABOUT US</a></li> -->
+                        <li><a href="contact.html">CONTACT US</a></li>
+                    </ul>
+                </div>
+                <i class="fas fa-bars" onclick="showmenu()"></i>
+            </nav>
+            <div class="text-box">
+                <h1>We are happy to help you</h1>
+            </div>
+            
+        </section>
+        <div class="container">
+            <form method="post" action="index.html">
+        
+                <label for="fname">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name..">
+        
+                <!-- <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name.."> -->
+        
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                    <option value="india">India</option>
+                    <option value="China">China</option>
+                    <option value="usa">USA</option>
+                </select>
+
+                <label for="email">Email</label>
+                <input type="text" name="email" placeholder="Your Email..">
+
+                <label for="email">Subject</label>
+                <input type="text" name="Subject" placeholder="Issue..">
+        
+                <label for="subject">Tell us more</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        
+                <input type="submit" value="Submit">
+                
+        
+            </form>
+        </div>
+
+    </a>
+    
+    
+    
+</body>
+</html>
